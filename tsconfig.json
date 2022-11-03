@@ -1,4 +1,5 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
+/*agrego strictNullChecks: false para que me deje iniciar con una experiencia como nula*/
 {
   "compileOnSave": false,
   "compilerOptions": {
@@ -6,6 +7,7 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "strictNullChecks": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,

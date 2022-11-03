@@ -1,0 +1,47 @@
+.row{
+    padding-top:4%;
+    margin:0;
+}
+div{
+    margin-top:-20px;
+    background-color: #004f6d;
+}
+.separar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    color: #96aa99;
+}
+.tamanio{ 
+    padding-bottom: 27px;
+    height: 47px;
+    margin-right: 30px;
+}
+.boton1{
+    margin-right: 31px;
+    margin-left: -83px;
+}
+.boton2{
+    margin-left: -53px;
+}
+h1{
+    font-style:oblique;
+    font-size:40px;
+    color:white;
+    text-align:justify;
+    padding-left:3%;
+    padding-bottom:30px;
+    background-color: #004f6d;
+}
+
+h2,h3{
+    display:inline;
+}
+
+h2{
+    font-size:25px;
+}
+h3{
+    font-size:23px;
+}

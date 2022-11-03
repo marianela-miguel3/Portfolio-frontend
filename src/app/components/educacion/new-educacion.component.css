@@ -1,0 +1,25 @@
+.container{
+    background-color: #96aa99;
+}
+#fondo{
+    background-color: #004f6d;
+    width: 100%;
+    height: 600px;
+}
+.top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 450px;
+}
+.format1{
+    padding-right: 26px;
+}
+.format2{
+    padding-right: 82px;
+}
+.format3{
+    padding-right: 45px;
+}
+.format4{
+    padding-right: 69px;
+}

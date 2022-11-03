@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="separar">
+    <h1>Experiencia laboral</h1>
+    <!-- <div class="col-lg-3"> -->
+        <button type="button" class="btn btn-light tamanio" routerLink="/nuevaExperiencia">
+            <i class="bi bi-plus-circle"></i>Agregar Experiencia</button>
+    </div>
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11"> 
+    <table class="table">
+        <tbody>
+            <tr *ngFor="let Experiencia of experiencias">
+                <td>{{Experiencia.titulo}}</td>
+                <td>{{Experiencia.anio}}</td>
+                <td>{{Experiencia.descripcion}}</td>
+                <td><button class="btn btn-light boton1" routerLink="/editExperiencia/{{Experiencia.id}}"><i class="bi bi-pencil-fill"></i></button></td>
+                <td><button class="btn btn-light boton2" (click)="delete(Experiencia.id)"><i class="bi bi-trash3-fill"></i></button></td>
+            </tr>
+        </tbody> 
+    </table>
+    </div>
+</div>

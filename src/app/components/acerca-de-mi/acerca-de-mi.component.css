@@ -1,0 +1,46 @@
+.row{
+    margin:0;
+}
+#nombre{
+    font-weight:bold;
+    margin-top:20px;
+    font-size:30px;
+    color:#00565b;
+}
+/* para darle formato hasta los 576 pixeles, si es menor la imagen se quedaria sin todos estos atributos */
+@media(min-width:576px){
+    #fotoPerfil{
+        position:absolute;
+        width:15%;
+        border-radius:100%;
+        left:1%;
+        /* top:585px; */
+        top:530px;
+        box-shadow: 10px 10px 30px cadetblue;
+    }
+}
+/* para darle formato hasta los 575 pixeles si se pasa de esa cantidad la imagen toma los atributos de la otra media query */
+@media(max-width:575px){
+    #fotoPerfil{
+        position:absolute;
+        width:30%;
+        border-radius:100%;
+        left:33%;
+        top:450px;
+    }
+}
+div{
+    text-align: center;
+}
+.cursiva{
+    font-style: italic;
+}
+h1{
+    font-size: 30px;
+    margin-top:20px;
+}
+#descripcion{
+    text-align: center;
+    margin-top: 60px;
+    padding-right: 50px;
+}

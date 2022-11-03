@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="separar">
+        <h1>Educación</h1>
+    <!-- <div class="col-lg-3"> -->
+        <button type="button" class="btn btn-light tamanio" routerLink="/nuevaEducacion">
+            <i class="bi bi-plus-circle"></i>Agregar Educación</button>
+    </div>
+    <!-- </div> -->
+    <div class="col-lg-1"></div>
+    <div class="col-lg-11"> 
+        <table class="table">
+            <tbody>
+                <tr *ngFor="let Educacion of educaciones">
+                    <td>{{Educacion.institucion}}</td>
+                    <td>{{Educacion.anio}}</td>
+                    <td>{{Educacion.nombre}}</td>
+                    <td>{{Educacion.lugar}}</td>
+                    <td><button class="btn btn-light td" routerLink="/editEducacion/{{Educacion.id}}"><i class="bi bi-pencil-fill"></i></button></td>
+                    <td><button class="btn btn-light td" (click)="delete(Educacion.id)"><i class="bi bi-trash3-fill"></i></button></td>
+                </tr>
+            </tbody> 
+        </table>
+    </div>
+</div>
